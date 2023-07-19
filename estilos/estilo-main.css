@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Charley;
+    src: url("../fontes/charley/CHARLEY.otf");
+}
+
+@font-face {
+    font-family: Vogue;
+    src: url("../fontes/vogue/Vogue.ttf");
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url("../fontes/coolvetica/coolvetica\ rg.otf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: black;
+    letter-spacing: 1px;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background- 4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(0, 4, 255);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
+
+
+:root {
+    --cor-1: blue;
+    --cor-2: rgb(251,176,59);
+    --cor-3: lightyellow;
+    --fonte-titulo: "Charley", serif;
+    --fonte-titulo2: "Vogue", serif;
+    --fonte-titulo3: "Coolvetica", sans-serif;
+
+}
+
+body {
+    background-color: var(--cor-2);
+    color: var(--cor-1);
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 50pt;
+    text-align: left;
+}
+
+h2 {
+    font-family: var(--fonte-titulo2);
+    font-size: 25pt;
+}
+
+p {
+    font-family: var(--fonte-titulo3);
+    font-size: 20pt;
+}
