@@ -14,6 +14,7 @@
     font-family: Coolvetica;
     src: url("../fontes/coolvetica/coolvetica\ rg.otf");
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -23,8 +24,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#menu-h{
-    background-color: var(--cor-5);
+#menu-h {
+    background-color: white;
     letter-spacing: 1px;
 }
 
@@ -44,31 +45,25 @@
     display: inline-flex;
     text-decoration: none;
     transition: background- 4s;
-    float:inline-start;
+    float: inline-start;
 }
 
 #menu-h ul li a:hover {
-    color: var(--cor-2);
+    color: var(--cor-1);
 }
 
 
 :root {
-    --cor-1: rgb(74,74,211);
-    --cor-2: rgb(251,176,59);
-    --cor-3: rgb(1,176,77);
-    --cor-4: rgb(255,182,200);
-    --cor-5: rgb(255,255,224);
+    --cor-1: rgb(74, 74, 211);
+    --cor-2: rgb(251, 176, 59);
+    --cor-3: rgb(1, 176, 77);
+    --cor-4: rgb(255, 182, 200);
+    --cor-5: rgb(255, 255, 224);
     --cor-6: rgb(188, 74, 70);
     --cor-7: rgb(31, 34, 98);
     --fonte-titulo: "Charley", serif;
     --fonte-titulo2: "Vogue", serif;
     --fonte-titulo3: "Coolvetica", sans-serif;
-
-}
-
-body {
-    background-color: var(--cor-5);
-    color: var(--cor-6);
 }
 
 h1 {
@@ -78,18 +73,66 @@ h1 {
 }
 
 h2 {
-    color: var(--cor-2);
+    color: black;
     text-align: left;
     font-family: var(--fonte-titulo3);
     font-size: 20pt;
 }
+h3 {
+    color: black;
+    text-align: left;
+    font-family: var(--fonte-titulo2);
+    font-size: 55pt;
+    letter-spacing: 5px;
+}
 
 p {
-    color: rgba(0, 0, 0, 0.72);
-    font-family: var(--fonte-titulo3);
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-titulo2);
     font-size: 14pt;
     text-align: left;
 }
+
 a {
     color: var(--cor-1);
+}
+
+body {
+    background: var(--cor-4);
+}
+
+div>p,
+span,
+li,
+td {
+    font-size: 13.5pt;
+    font-family: Arial;
+}
+
+div {
+    background: white;
+    display: block;
+    margin-top: 2cm;
+    margin-left: 0 auto;
+    margin-bottom: 2cm;
+}
+
+div[size="A4"] {
+    width: 21cm;
+    height: 50cm;
+}
+
+div[size="A4"][layout="portrait"] {
+    width: 29.7cm;
+    height: 21cm;
+
+}
+
+@media print {
+
+    body,
+    page {
+        margin: 0;
+        box-shadow: 0;
+    }
 }
