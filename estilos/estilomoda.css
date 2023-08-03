@@ -25,7 +25,7 @@
 }
 
 #menu-h {
-    background-color: white;
+    background-color: var(--cor-4);
     letter-spacing: 1px;
 }
 
@@ -33,6 +33,7 @@
     max-width: 800px;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 #menu-h ul li {
@@ -40,6 +41,7 @@
 }
 
 #menu-h ul li a {
+    font-size: 17pt ;
     color: black;
     padding: 20px;
     display: inline-flex;
@@ -50,6 +52,10 @@
 
 #menu-h ul li a:hover {
     color: var(--cor-1);
+    background-color: rgb(255, 120, 136);
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -61,6 +67,8 @@
     --cor-5: rgb(255, 255, 224);
     --cor-6: rgb(188, 74, 70);
     --cor-7: rgb(31, 34, 98);
+    --cor-nav-hover: #d3e7f5;
+    --cor-nav-hover-text: #686828;
     --fonte-titulo: "Charley", serif;
     --fonte-titulo2: "Vogue", serif;
     --fonte-titulo3: "Coolvetica", sans-serif;
@@ -68,8 +76,8 @@
 
 h1 {
     font-family: var(--fonte-titulo);
-    font-size: 50pt;
-    text-align: left;
+    font-size: 75pt;
+    text-align: center;
 }
 
 h2 {
@@ -79,15 +87,14 @@ h2 {
     font-size: 20pt;
 }
 h3 {
-    color: black;
+    color: var(--cor-7);
     text-align: left;
     font-family: var(--fonte-titulo2);
     font-size: 55pt;
     letter-spacing: 5px;
 }
-
 p {
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: var(--fonte-titulo2);
     font-size: 14pt;
     text-align: left;
@@ -112,7 +119,7 @@ td {
 div {
     background: white;
     display: block;
-    margin-top: 2cm;
+    margin-top: 1cm;
     margin-left: 0 auto;
     margin-bottom: 2cm;
 }

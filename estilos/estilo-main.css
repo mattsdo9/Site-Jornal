@@ -32,6 +32,8 @@
     max-width: 800px;
     list-style: none;
     padding: 0;
+    text-align: center;
+    font-size: 17pt;
 }
 
 #menu-h ul li {
@@ -39,16 +41,19 @@
 }
 
 #menu-h ul li a {
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 20px;
     display: inline-flex;
     text-decoration: none;
     transition: background- 4s;
     float:inline-start;
 }
-
 #menu-h ul li a:hover {
     color: var(--cor-2);
+    background-color: var(--cor-nav-hover);
+    color: var(--cor-nav-hover-text);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -60,6 +65,8 @@
     --cor-5: rgb(255,255,224);
     --cor-6: rgb(188, 74, 70);
     --cor-7: rgb(31, 34, 98);
+    --cor-nav-hover: rgb(255, 255, 196);
+    --cor-nav-hover-text: #000000;
     --fonte-titulo: "Charley", serif;
     --fonte-titulo2: "Vogue", serif;
     --fonte-titulo3: "Coolvetica", sans-serif;
@@ -73,21 +80,26 @@ body {
 
 h1 {
     font-family: var(--fonte-titulo);
-    font-size: 50pt;
-    text-align: left;
+    font-size: 70pt;
+    text-align: center;
+    padding-top: 21%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
 }
 
 h2 {
     color: var(--cor-2);
     text-align: left;
     font-family: var(--fonte-titulo3);
-    font-size: 20pt;
+    font-size: 15pt;
+    text-align: center;
 }
 
 p {
     color: rgba(0, 0, 0, 0.72);
     font-family: var(--fonte-titulo3);
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: left;
 }
 a {
