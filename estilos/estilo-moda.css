@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: Charley;
+    src: url("../fontes/charley/CHARLEY.otf");
+}
+
+@font-face {
+    font-family: Vogue;
+    src: url("../fontes/vogue/Vogue.ttf");
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url("../fontes/coolvetica/coolvetica\ rg.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --cor-1: rgb(74, 74, 211);
+    --cor-2: rgb(251, 176, 59);
+    --cor-3: rgb(1, 176, 77);
+    --cor-4: rgb(255, 182, 200);
+    --cor-5: rgb(255, 255, 224);
+    --cor-6: rgb(188, 74, 70);
+    --cor-7: rgb(31, 34, 98);
+    --fonte-titulo: "Charley", serif;
+    --fonte-titulo2: "Vogue", serif;
+    --fonte-titulo3: "Coolvetica", sans-serif;
+
+}
