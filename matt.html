@@ -7,44 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shine</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="imagens/413806.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagens/442-4420973_sol-desenho-png-sol-png-fundo-transparente.png"
+        type="image/x-icon" />
     <link rel="stylesheet" href="estilos/estilo-main.css" />
 </head>
 
 <body>
-    <nav id="menu-h">
-        <ul>
-            <li>
-                <a href="matt.html">HOME</a>
-            </li>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Shine</h1>
+            </div>
 
-            <li><a href="paginamoda.html">MODA</a></li>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="matt.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="paginamoda.html" class="nav-link">MODA</a></li>
+                    <li class="nav-item"><a href="paginainverno.html" class="nav-link">INVERNO</a></li>
+                    <li class="nav-item"><a href="paginaacessorios.html" class="nav-link">ACESSÓRIOS</a></li>
+                    <li class="nav-item"><a href="paginatenis.html" class="nav-link">TENIS</a></li>
+                </ul>
+            </div>
 
-            <li><a href="paginaacessorios.html">ACESSÓRIOS</a></li>
+            <div class="login-button">
+                <button><a href="matt.html" class="nav-link"><img src="imagens/icons8-cardápio-50.png" alt="Logo menu"></a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
 
-            <li><a href="paginatenis.html">TENIS</a></li>
-
-            <li><a href="paginainverno.html">INVERNO</a></li>
-        </ul>
-    </nav>
-    <h1>SHine</h1>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            </nav>
+    </header>
     <div class="col">
         <div class="card card1">
-            <h5>Moda</h5>
-            <p>RUNNING LET GO</p>
-                <link rel="stylesheet" href="paginamoda.html">
         </div>
         <div class="card card2">
-            <h5>Inverno</h5>
-            <p>RUNNING LET GO</p>
         </div>
-        <div class="card card3">
-            <h5>Acessorios</h5>
-            <p>RUNNING LET GO</p>
+        <div class="card card3">    
         </div>
         <div class="card card4">
-            <h5>Roupas</h5>
-            <p>RUNNING LET GO</p>
         </div>
     </div>
 </body>
