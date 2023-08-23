@@ -63,7 +63,7 @@ header {
 
 .logo h1 {
     font-size: 75pt;
-    color: rgb(100, 146, 26);
+    color: rgb(46, 150, 150);
 }
 
 .nav-list {
@@ -78,7 +78,7 @@ header {
 }
 
 .nav-list ul li a {
-    color: rgb(100, 146, 26);
+    color: rgb(46, 150, 150);
     padding: 20px;
     display: inline-flex;
     text-decoration: none;
@@ -88,7 +88,7 @@ header {
 .nav-list ul li a:hover {
     color: var(--cor-2);
     background-color: #00000028;
-    color: rgb(100, 146, 26);
+    color: rgb(46, 150, 150);
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
@@ -100,7 +100,7 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: rgb(100, 146, 26);
+    color: rgb(46, 150, 150);
     font-weight: 400;
 }
 
@@ -114,7 +114,7 @@ header {
 
 .login-button a {
     text-decoration: none;
-    color: rgb(100, 146, 26);
+    color: rgb(46, 150, 150);
     font-weight: 500;
     font-size: 1.1rem;
 }

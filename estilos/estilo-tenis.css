@@ -38,3 +38,191 @@
     --fonte-titulo3: "Coolvetica", sans-serif;
 
 }
+
+
+
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #ffffff00;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 75pt;
+    color: crimson;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list ul li a {
+    color: crimson;
+    padding: 20px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: background- 4s;
+}
+
+.nav-list ul li a:hover {
+    color: var(--cor-2);
+    background-color: #00000028;
+    color: crimson;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: crimson;
+    font-weight: 400;
+}
+
+.login-button button {
+    padding: 0 auto;
+    border: none;
+    background-color: #0186a700;
+    padding: 52.5px 200px 50px 10px;
+    border-radius: 5px;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 100pt;
+    text-align: center;
+    padding-top: 0cm;
+    padding-left: 0cm;
+    padding-bottom: 0cm;
+    padding-right: 0cm;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 35pt;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    font-family: var(--fonte-titulo2);
+    font-size: 20pt;
+}
+
+h5 {
+    font-size: 22pt;
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-titulo3);
+    font-size: 18pt;
+    text-align: center;
+    padding: 20pt 300pt 20pt 300pt;
+}
+
+a {
+    color: var(--cor-1);
+}
+
+.imgT{
+    display: flex;
+    align-self: center;
+}
+.imgA {
+    display: flex;
+    align-self: center;
+}

@@ -63,7 +63,7 @@ header {
 
 .logo h1 {
     font-size: 75pt;
-    color: rgb(100, 146, 26);
+    color: rgb(240, 151, 19);
 }
 
 .nav-list {
@@ -78,7 +78,7 @@ header {
 }
 
 .nav-list ul li a {
-    color: rgb(100, 146, 26);
+    color: rgb(240, 151, 19);
     padding: 20px;
     display: inline-flex;
     text-decoration: none;
@@ -88,7 +88,7 @@ header {
 .nav-list ul li a:hover {
     color: var(--cor-2);
     background-color: #00000028;
-    color: rgb(100, 146, 26);
+    color: rgb(240, 151, 19);
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
@@ -100,7 +100,7 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: rgb(100, 146, 26);
+    color: rgb(240, 151, 19);
     font-weight: 400;
 }
 
@@ -114,7 +114,7 @@ header {
 
 .login-button a {
     text-decoration: none;
-    color: rgb(100, 146, 26);
+    color: rgb(240, 151, 19);
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -209,4 +209,48 @@ p {
 
 a {
     color: var(--cor-1);
+}
+.imgJ {
+    display: flex;
+    align-self: center;
+}
+.card1 {
+    text-align: center;
+    padding-top: 9cm;
+    background-image: url(https://www.nit.pt/wp-content/uploads/2023/06/f8386534dd79954425ab21455db676ef-754x394.jpg);
+}
+
+.card2 {
+    text-align: center;
+    padding-top: 9cm;
+    background-image: url(https://viroutendencia.com/wp-content/uploads/2019/11/como-usar-acessorios-dourados-1.jpg);
+}
+
+.card3 {
+    text-align: center;
+    padding-top: 9cm;
+    background-image: url(https://www.vidadeturista.com/wp-content/uploads/2015/06/5-cidades-para-conhecer-no-inverno.jpg);
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+}
+.card {
+    width: 600px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px -50px 50px 50px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
 }
