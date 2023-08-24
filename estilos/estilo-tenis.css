@@ -40,8 +40,6 @@
 }
 
 
-
-
 body {
     background-color: white;
 }
@@ -218,14 +216,16 @@ a {
     color: var(--cor-1);
 }
 
-.imgT{
+.imgT {
     display: flex;
     align-self: center;
 }
+
 .imgA {
     display: flex;
     align-self: center;
 }
+
 .imgB {
     display: flex;
     align-self: center;

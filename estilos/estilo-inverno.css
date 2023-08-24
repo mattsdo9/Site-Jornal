@@ -221,18 +221,21 @@ a {
     align-self: center;
 }
 
-.imgT{
+.imgT {
     display: flex;
     align-self: center;
 }
+
 .imgA {
     display: flex;
     align-self: center;
 }
+
 .imgB {
     display: flex;
     align-self: center;
 }
+
 .imgI {
     display: flex;
     align-self: center;
