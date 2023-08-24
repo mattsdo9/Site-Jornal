@@ -188,10 +188,10 @@ h1 {
 }
 
 h2 {
-    color: var(--cor-2);
+    color: black;
     text-align: left;
-    font-family: var(--fonte-titulo3);
-    font-size: 15pt;
+    font-size: 35pt;
+    padding: 20pt 300pt 20pt 300pt
 }
 
 h5 {
@@ -201,12 +201,39 @@ h5 {
 }
 
 p {
-    color: rgb(255, 255, 255);
-    font-family: var(--fonte-titulo3);
-    font-size: 12pt;
+    color: rgb(95, 95, 95);
+    font-size: 15pt;
     text-align: left;
+    padding: 20pt 300pt 20pt 300pt;
 }
 
 a {
     color: var(--cor-1);
+}
+
+.imgJ {
+    display: flex;
+    align-self: center;
+}
+
+.imgE {
+    display: flex;
+    align-self: center;
+}
+
+.imgT{
+    display: flex;
+    align-self: center;
+}
+.imgA {
+    display: flex;
+    align-self: center;
+}
+.imgB {
+    display: flex;
+    align-self: center;
+}
+.imgI {
+    display: flex;
+    align-self: center;
 }

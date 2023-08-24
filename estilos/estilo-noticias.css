@@ -188,10 +188,10 @@ h1 {
 }
 
 h2 {
-    color: var(--cor-2);
+    color: black;
     text-align: left;
-    font-family: var(--fonte-titulo3);
-    font-size: 15pt;
+    font-size: 35pt;
+    padding: 20pt 300pt 20pt 300pt
 }
 
 h5 {
@@ -201,10 +201,10 @@ h5 {
 }
 
 p {
-    color: rgb(255, 255, 255);
-    font-family: var(--fonte-titulo3);
-    font-size: 12pt;
+    color: rgb(95, 95, 95);
+    font-size: 15pt;
     text-align: left;
+    padding: 20pt 300pt 20pt 300pt;
 }
 
 a {
@@ -216,19 +216,19 @@ a {
 }
 .card1 {
     text-align: center;
-    padding-top: 9cm;
+    padding-top: 5cm;
     background-image: url(https://www.nit.pt/wp-content/uploads/2023/06/f8386534dd79954425ab21455db676ef-754x394.jpg);
 }
 
 .card2 {
     text-align: center;
-    padding-top: 9cm;
+    padding-top: 5cm;
     background-image: url(https://viroutendencia.com/wp-content/uploads/2019/11/como-usar-acessorios-dourados-1.jpg);
 }
 
 .card3 {
     text-align: center;
-    padding-top: 9cm;
+    padding-top: 5cm;
     background-image: url(https://www.vidadeturista.com/wp-content/uploads/2015/06/5-cidades-para-conhecer-no-inverno.jpg);
 }
 
@@ -253,4 +253,9 @@ a {
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+}
+
+.imgE {
+    display: flex;
+    align-self: center;
 }
